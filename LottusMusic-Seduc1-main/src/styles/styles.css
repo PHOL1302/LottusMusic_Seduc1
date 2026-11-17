@@ -22,13 +22,11 @@ li a{
 
 
 
-nav{
-    display: flex;
-    gap: 20px;
-}
 
 .btn-primary{
+
     background-color: var(--color-primary);
+    gap: 5px;
     padding: 10px 20px ;
     border-radius: 10px;
     color: var(--color-light);
@@ -45,5 +43,45 @@ nav{
 }
 
 
+.main-content .btn-primary{
+display: flex;
+align-items: center;
+gap: 5px;
+}
 
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    background-color: var(--color-LottusNight);
+    padding: 90px 0;
+}
+h1{
+    color: var(--color-light);
+    font-size: var(--font-size-h1);
+    font-family: var(--font-title);
+    font-weight: 400;
+    line-height: 64px;
+}
 
+.text-highlight{
+    color: var(--color-primary);
+}
+.main-content p{
+    color: var(--color-light);
+    font-size: var(--font-size-body);
+    width: 476px;
+
+}
+
+.main-content{
+    display: flex;
+    gap: 20px;
+   flex-direction: column;
+}
+
+.main-content nav{
+    display: flex;
+    gap: 10px;
+}
